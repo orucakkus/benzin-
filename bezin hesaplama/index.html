@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>benzin hesaplama </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="txtpara">1 = Bu Paraya Bu kadar Benzin Alınır ?</label>
+        <input type="number" name="txtpara" id="para" value="">
+        <label for="txtben">2 = Bu Benzin Bu kadar Para Eder ?</label>
+        <input type="number" name="txtben" id="benzin" value="">
+    </form>
+    <input type="button" value="hesapla" onclick="hesapla()">
+    <br>
+    <br>
+    <input type="button" value="sıfırlamak İçin Tıklayın " onclick="sıfırla()">
+    <h2 id="durum"></h2>
+    <h3 id="sonus"></h3>
+
+    <h3 id="sonucs"></h3>
+    
+    <script src="codde.js"></script>
+</body>
+</html>
